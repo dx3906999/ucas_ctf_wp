@@ -1,0 +1,552 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>rsa05 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../pwn/" />
+    
+    
+    <link rel="prev" href="rsa.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    CRYPTO
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="rsa.html">
+            
+                <a href="rsa.html">
+            
+                    
+                    rsa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="rsa05.html">
+            
+                <a href="rsa05.html">
+            
+                    
+                    rsa05
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../pwn/">
+            
+                <a href="../pwn/">
+            
+                    
+                    pwn
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../pwn/一些libc工具.html">
+            
+                <a href="../pwn/一些libc工具.html">
+            
+                    
+                    一些libc工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../pwn/int.html">
+            
+                <a href="../pwn/int.html">
+            
+                    
+                    int
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../pwn/pointy.html">
+            
+                <a href="../pwn/pointy.html">
+            
+                    
+                    pointy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../pwn/guessing_game_1.html">
+            
+                <a href="../pwn/guessing_game_1.html">
+            
+                    
+                    guessing_game_1.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../pwn/hard_stack.html">
+            
+                <a href="../pwn/hard_stack.html">
+            
+                    
+                    hard_stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../pwn/primecoder.html">
+            
+                <a href="../pwn/primecoder.html">
+            
+                    
+                    primecoder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../pwn/stack1.html">
+            
+                <a href="../pwn/stack1.html">
+            
+                    
+                    stack1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../RE/">
+            
+                <a href="../RE/">
+            
+                    
+                    RE
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../RE/VaultDoor.html">
+            
+                <a href="../RE/VaultDoor.html">
+            
+                    
+                    VaultDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../RE/Checkpass.html">
+            
+                <a href="../RE/Checkpass.html">
+            
+                    
+                    Checkpass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../RE/Powershelly.html">
+            
+                <a href="../RE/Powershelly.html">
+            
+                    
+                    Powershelly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../RE/arm调试——re&pwn.html">
+            
+                <a href="../RE/arm调试——re&pwn.html">
+            
+                    
+                    arm调试————re&pwn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Web/">
+            
+                <a href="../Web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Web/BabyExtract.html">
+            
+                <a href="../Web/BabyExtract.html">
+            
+                    
+                    BabyExtract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Web/BabyHttp.html">
+            
+                <a href="../Web/BabyHttp.html">
+            
+                    
+                    BabyHttp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Web/easySQL0.html">
+            
+                <a href="../Web/easySQL0.html">
+            
+                    
+                    easySQL0
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >rsa05</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="task05-&#x89E3;&#x6790;">task05 &#x89E3;&#x6790;</h1>
+<p>&#x9898;&#x76EE;&#x5982;&#x4E0B;</p>
+<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/env python3</span>
+
+<span class="hljs-comment"># from Crypto.Util.number import *</span>
+
+<span class="hljs-comment"># from secret import FLAG</span>
+
+<span class="hljs-comment"># BITS = 512</span>
+
+<span class="hljs-comment"># p = getPrime(BITS)</span>
+<span class="hljs-comment"># q = getPrime(BITS)</span>
+<span class="hljs-comment"># N = p * q</span>
+<span class="hljs-comment"># e = 65537</span>
+<span class="hljs-comment"># d = inverse(e, (p - 1) * (q - 1))</span>
+<span class="hljs-comment"># dp = d % (p - 1)</span>
+
+<span class="hljs-comment"># pt = bytes_to_long(FLAG)</span>
+
+<span class="hljs-comment"># ct = pow(pt, e, N)</span>
+
+<span class="hljs-comment"># print((N, e))</span>
+<span class="hljs-comment"># print(dp)</span>
+<span class="hljs-comment"># print(ct)</span>
+</code></pre>
+<p>&#x53EF;&#x77E5;</p>
+<blockquote>
+<p>d <em> e == 1 + k_1 </em> (p-1) <em> (q-1)
+  d </em> e == dp <em> e + k_2 </em> (p-1) * e</p>
+</blockquote>
+<p>&#x4E24;&#x5F0F;&#x76F8;&#x51CF;&#x5F97;&#x5230;</p>
+<blockquote>
+<p>dp <em> e - 1 == (k_1 </em> (q-1) - k_2 <em> e) </em> (p-1)</p>
+</blockquote>
+<p>let $$i = k_1 <em> (q-1) - k_2 </em> e$$
+then $$<code>dp * e - 1 == i * (p-1)</code>$$
+<code>dp</code> is no more than <code>(p-1)</code>
+so <code>i</code> is no more than <code>e</code>
+we can find out <code>i</code> easily, and we have $$p = ((e * dp - 1) // i) + 1$$</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="rsa.html" class="navigation navigation-prev " aria-label="Previous page: rsa">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../pwn/" class="navigation navigation-next " aria-label="Next page: pwn">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"rsa05","level":"1.2.2","depth":2,"next":{"title":"pwn","level":"1.3","depth":1,"path":"pwn/README.md","ref":"pwn/README.md","articles":[{"title":"一些libc工具","level":"1.3.1","depth":2,"path":"pwn/一些libc工具.md","ref":"pwn/一些libc工具.md","articles":[]},{"title":"int","level":"1.3.2","depth":2,"path":"pwn/int.md","ref":"pwn/int.md","articles":[]},{"title":"pointy","level":"1.3.3","depth":2,"path":"pwn/pointy.md","ref":"pwn/pointy.md","articles":[]},{"title":"guessing_game_1.md","level":"1.3.4","depth":2,"path":"pwn/guessing_game_1.md","ref":"pwn/guessing_game_1.md","articles":[]},{"title":"hard_stack","level":"1.3.5","depth":2,"path":"pwn/hard_stack.md","ref":"pwn/hard_stack.md","articles":[]},{"title":"primecoder","level":"1.3.6","depth":2,"path":"pwn/primecoder.md","ref":"pwn/primecoder.md","articles":[]},{"title":"stack1","level":"1.3.7","depth":2,"path":"pwn/stack1.md","ref":"pwn/stack1.md","articles":[]}]},"previous":{"title":"rsa","level":"1.2.1","depth":2,"path":"CRYPTO/rsa.md","ref":"CRYPTO/rsa.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CRYPTO/rsa05.md","mtime":"2024-06-04T06:04:20.946Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-27T11:20:54.082Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
